@@ -3951,7 +3951,9 @@ textarea.form-control-lg {
   flex-grow: 1;
   align-items: center;
 }
-
+/* #testimonials {
+  visibility: hidden;
+} */
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
@@ -11029,6 +11031,8 @@ textarea.form-control-lg {
 .portfolio-box img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+
 }
 .portfolio-box .portfolio-info {
   background-color: rgba(153, 38, 240, 0.75);
